@@ -13,4 +13,8 @@ class BankAccount
     @name
   end
 
+  def deposit(ammount)
+    @balance +=  ammount
+  end
+
 end
