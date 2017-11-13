@@ -13,4 +13,8 @@ class Transfer
     return true if (sender.valid? and receiver.valid?)
   end
 
+  def execute_transaction
+    
+  end
+
 end
